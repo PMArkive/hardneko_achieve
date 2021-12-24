@@ -1,0 +1,28 @@
+"Games"
+{
+    "left4dead2"
+    {
+        "Functions"
+        {
+            "CTerrorGameRules::GetSurvivorSet"
+            {
+                "signature"	"CTerrorGameRules::GetSurvivorSet"
+                "callconv"	"thiscall"
+                "return"	"int"
+                "this"		"ignore"
+            }
+        }
+
+		"Signatures"
+		{
+			/* CTerrorGameRules::GetSurvivorSet(CTerrorGameRules *__hidden this) */
+            "CTerrorGameRules::GetSurvivorSet"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTerrorGameRules14GetSurvivorSetEv"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x8B\x2A\x8B\x2A\x2A\x53\x56\xBB\x2A\x2A\x2A\x2A\xFF"
+				/* ? ? ? ? ? ? ? ? ? ? 8B ? 8B ? ? 53 56 BB ? ? ? ? FF */
+			}
+		}
+    }
+}
